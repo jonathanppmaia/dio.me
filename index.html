@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+</head>
+
+<body>
+  <h1 id="inicio">FORMAÇÃO HTML WEB DEVELOPER</h1>
+  <hr>
+  <h2>Indice</h2>
+  <ol>
+    <li>Primeiros Passos com HTML</li>
+    <li>
+      Entendendo comunicação Cllient x Server
+      <!-- Veja que a tag de fechamento </li> não é colocada aqui! -->
+      <ol>
+        <li><a href="#historia">História da Web</a></li>
+        <li><a href="#clients">O que são Clients</a></li>
+        <li><a href="#servers">O que são Servers</a></li>
+        <li><a href="#linguagens">Sobre linguagens de programação web</a></li>
+      </ol>
+    </li>
+    <li>
+      HTML na Prática
+      <!-- Veja que a tag de fechamento </li> não é colocada aqui! -->
+      <ol>
+        <li><a href="#estrutura">Estrutrua Básica do HTML</a></li>
+        <li><a href="tags">Falando sobre TAGS</a></li>
+        <li><a href="#atributos">Atributos básicos</a></li>
+        <li><a href="#tag_texto">Tags para Texto</a></li>
+        <li><a href="#listas">Listas</a>
+          <ol>
+            <li><a href="#ol">ListaOrdenadas</a></li>
+            <li><a href="#ul">Lista não Ordenadas</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <hr>
+
+  <h3 id="historia">História da Web</h3>
+  <sup><a href="#inicio">Voltar</a></sup>
+  <p>A <mark>história da Web</mark> é uma fascinante jornada que remonta às décadas de 1960 e 1970, quando os primeiros conceitos de troca de informações digitais começaram a emergir. No entanto, foi em 1989 que Tim Berners-Lee introduziu o conceito de hipertexto, lançando as bases para a World Wide Web como a conhecemos hoje. Com a criação do primeiro navegador e servidor web em 1990, a acessibilidade e compartilhamento de informações deram um salto revolucionário.</p>
+  <p>A década de 1990 testemunhou a rápida proliferação de sites e o desenvolvimento das primeiras linguagens de programação web, como HTML e CSS. Desde então, a Web evoluiu exponencialmente, dando origem a inúmeras tecnologias, como JavaScript e frameworks de desenvolvimento, que continuam a moldar nossa experiência online.</p>
+
+  <h3 id="clients">O que são Clients</h3>
+  <p> <strong>Clientes</strong>, no contexto da tecnologia, referem-se aos dispositivos, aplicativos ou programas que acessam os recursos ou serviços fornecidos por servidores. Em um cenário web, os clientes são geralmente os navegadores usados pelas pessoas para acessar sites e aplicativos online.</p>
+  <p>Esses navegadores interpretam e exibem os conteúdos das páginas da Web, permitindo que os usuários interajam com interfaces, mídia e outros elementos. Os clientes também podem ser aplicativos móveis, softwares de e-mail e qualquer outro meio que consuma informações ou serviços disponibilizados por servidores na internet.</p>
+
+  <h3 id="servers">O que são Servers</h3>
+  <sup><a href="#inicio">Voltar</a></sup>
+  <p> <strong>Servidores</strong> são sistemas computacionais que fornecem serviços, recursos ou informações para clientes através da internet ou de redes locais. No contexto da Web, os servidores são responsáveis por armazenar, gerenciar e entregar conteúdo solicitado pelos clientes. </p>
+  <p>Quando você digita um URL em seu navegador, ele envia uma solicitação para o servidor associado a esse URL, que então responde enviando os arquivos e dados necessários para exibir a página da Web. Os servidores desempenham um papel crucial na infraestrutura da Web, hospedando sites, aplicativos e serviços online, e garantindo que os clientes obtenham as informações que estão buscando de forma eficiente.</p>
+
+  <h3 id="linguagens">Sobre linguagens de programação web</h3>
+  <sup><a href="#inicio">Voltar</a></sup>
+  <p>As linguagens de programação web são conjuntos de instruções que os desenvolvedores utilizam para criar e controlar o comportamento de sites e aplicativos na internet. Entre as principais linguagens estão o HTML (HyperText Markup Language), usado para estruturar o conteúdo das páginas; o CSS (Cascading Style Sheets), empregado para estilizar a aparência visual; e o JavaScript, que adiciona interatividade e dinamismo às páginas. A</p>
+  <p>lém dessas linguagens fundamentais, existem muitas outras opções, como Python, Ruby, PHP e Java, cada uma com suas próprias vantagens e áreas de aplicação. Os desenvolvedores web escolhem as linguagens com base nas necessidades específicas do projeto, buscando a melhor combinação para criar experiências online atraentes e funcionais.</p>
+
+  <hr>
+
+  <h3 id="estrutura">Estrutrua Básica do HTML</h3>
+  <sup><a href="#inicio">Voltar</a></sup>
+  <p>A estrutura básica do HTML é o alicerce sobre o qual a grande parte da web é construída. HTML, ou HyperText Markup Language, é uma linguagem de marcação usada para criar a estrutura e o conteúdo das páginas da web. A estrutura fundamental de um documento HTML começa com a tag <b>html</b>, que engloba todo o conteúdo da página. Dentro do<b>html</b>, encontramos as tags <b>head</b> e <b>body</b>. A tag <b>head</b> contém informações importantes sobre o documento, como metadados, títulos e links para estilos e scripts externos. Já a tag <b>body</b> é onde o conteúdo visível da página é colocado, como texto, imagens, links e outros elementos. Para uma estrutura coesa, o HTML também exige o uso de tags de abertura e fechamento para envolver e organizar os diferentes elementos, garantindo que a página seja interpretada corretamente pelos navegadores.</p>
+  <p>Ao criar uma página web, seguir a estrutura básica do HTML é essencial para garantir a consistência e a acessibilidade. Começar com a definição do tipo de documento usando <b>!DOCTYPE html</b> é crucial para indicar aos navegadores que a página segue os padrões modernos do HTML5. Em seguida, a estrutura deve incluir a tag <html>, dentro da qual estão as seções <b>head</b> e <b>body</b>. No <b>head</b>, podem ser inseridas informações como o título da página exibido na aba do navegador, links para folhas de estilo CSS e metadados relevantes para mecanismos de busca e redes sociais. O conteúdo real da página, como parágrafos, imagens, listas e elementos de formulário, deve ser inserido dentro do <b>body</b>. Mantendo essa estrutura organizada e coerente, os desenvolvedores podem criar páginas da web que sejam semanticamente ricas e bem formatadas, facilitando a compreensão tanto para os navegadores quanto para os usuários.</p>
+
+  <h3 id="tags">Falando sobre TAGS</h3>
+  <p>No contexto da programação web e linguagens de marcação como o HTML, as tags desempenham um papel fundamental na estruturação e formatação do conteúdo. As tags são essencialmente rótulos ou elementos que delimitam e definem diferentes partes do conteúdo dentro de um documento. Cada tag é composta por um nome envolvido por colchetes angulares, como <tag>. Existem diversos tipos de tags, desde as de abertura até as de fechamento, e também tags auto-fecháveis que não requerem uma tag de fechamento separada. As tags determinam como o conteúdo será interpretado e exibido pelos navegadores, influenciando o estilo, layout e comportamento da página.</p>
+  <p>Ao criar um documento HTML, o uso adequado das tags é essencial para garantir que o conteúdo seja organizado e renderizado corretamente. As tags podem ser estruturais, como
+    <b>head</b>, <b>nav</b>, <b>main</b> e <b>footer</b>, que definem diferentes seções da página, ou podem ser funcionais, como as tags de lista
+    <b>ul</b>, <b>ol</b> e <b>li</b>
+    </b>. As tags também podem conter atributos, que fornecem informações adicionais para modificar o comportamento ou aparência dos elementos. Por exemplo, a tag de imagem <b>img</b> pode conter um atributo src para especificar o local da imagem, e a tag de link <b>a</b> pode ter um atributo <b>href</b> para definir o destino do link. Dominar o uso adequado das tags é essencial para criar páginas web bem estruturadas e visualmente atraentes, permitindo que os desenvolvedores controlem o conteúdo e a apresentação de maneira eficaz.
+  </p>
+
+  <h3 id="atributos">Atributos básicos</h3>
+
+  <p>No contexto da programação web e linguagens de marcação como o HTML, as tags desempenham um papel fundamental na estruturação e formatação do conteúdo. As tags são essencialmente rótulos ou elementos que delimitam e definem diferentes partes do conteúdo dentro de um documento. Cada tag é composta por um nome envolvido por colchetes angulares, como <b>tag</b>. Existem diversos tipos de tags, desde as de abertura até as de fechamento, e também tags auto-fecháveis que não requerem uma tag de fechamento separada. As tags determinam como o conteúdo será interpretado e exibido pelos navegadores, influenciando o estilo, layout e comportamento da página.</p>
+  <p>Ao criar um documento HTML, o uso adequado das tags é essencial para garantir que o conteúdo seja organizado e renderizado corretamente. As tags podem ser estruturais, como
+    <b>header</b>, <b>nav</b>, <b>main</b> e <b>footer</b>, que definem diferentes seções da página, ou podem ser funcionais, como as tags de lista <b>ul</b>, <b>ol</b> e <b>li</b>. As tags também podem conter atributos, que fornecem informações adicionais para modificar o comportamento ou aparência dos elementos. Por exemplo, a tag de imagem <b>img</b> pode conter um atributo src para especificar o local da imagem, e a tag de link <b>a</b> pode ter um atributo href para definir o destino do link. Dominar o uso adequado das tags é essencial para criar páginas web bem estruturadas e visualmente atraentes, permitindo que os desenvolvedores controlem o conteúdo e a apresentação de maneira eficaz.
+  </p>
+
+  <h3 id="tag_texto">Tags para Texto</h3>
+  <p>No HTML, as tags desempenham um papel essencial na formatação e estruturação do texto exibido em uma página da web. A tag <b>&lt p &gt</b> é usada para criar parágrafos, permitindo que o texto seja dividido de maneira organizada. Por exemplo, <b>&lt p &gt</b> Este é um exemplo de parágrafo.<b>&lt /p &gt</b>. Além disso, a tag <b>&lt h1 &gt</b> até <b>&lt h6 &gt</b> é usada para criar títulos e subtítulos, com <b>&lt h1 &gt</b> sendo o mais importante e <b>&lt h6 &gt</b> o menos importante: <b>&lt h1 &gt</b>Título Principal<b>&lt /h1 &gt</b>, <b>&lt h2 &gt</b>Subtítulo<b>&lt /h2 &gt</b>. Para enfatizar o texto, a tag <b>&lt em &gt</b> pode ser usada para aplicar ênfase itálico: <b>&lt em &gt</b>Texto enfatizado<b>&lt /em &gt</b>, enquanto a tag<b>&lt strong &gt</b> é usada para aplicar destaque em negrito: <b>&lt strong &gt</b>Texto em negrito<b>&lt /strong &gt</b>. Para marcar citações, a tag <b>&lt blockquote &gt</b> é usada: <b>&lt blockquote &gt</b> Texto da citação <b>&lt /blockquote &gt</b>.</p>
+
+  <h3 id="listas">Listas</h3>
+
+  <p>
+    <>As listas</ blockquote> desempenham um papel fundamental na organização do conteúdo em uma página da web. No HTML, há duas principais categorias de listas:listas ordenadas e listas não ordenadas.
+  </p>
+  <h4 id="ul">Lista não ordenadas</h4>
+  <p> As listas não ordenadas são criadas usando a tag <b>&lt ul &gt</b>, onde cada item da lista é definido com a tag <b>&lt li &gt</b>.</p>
+  <h4 id="ol">Lista ordenadas</h4>
+  <p>
+    Já as listas ordenadas são criadas usando a tag <b>&lt ol &gt</b>, onde os itens são igualmente definidos com a tag <b>&lt li &gt</b>. Essas listas são automaticamente numeradas em ordem crescente.
+  </p>
+</body>
+
+</html>
